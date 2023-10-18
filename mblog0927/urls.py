@@ -16,7 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+<<<<<<< HEAD
 from mysite import views as mv
+=======
+from mysite import views as mv #從mysite 載入
+>>>>>>> 278678e3942d5ed2f6a55198df342e33b8d26518
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',mv.homepage,name='homepage'), #連到view的homepage
